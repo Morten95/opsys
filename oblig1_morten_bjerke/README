@@ -1,0 +1,18 @@
+Readme fil for oblig1 av Morten Bjerke
+
+Oblig1_1 er oppgave b) i kap 4.5
+
+Oblig1_2 er oppgave a) i kap 5.6
+
+oblig1_3 er oppgave b) i kap 5.6 og tatt utganspunkt fra eksempel 3 i 05-ipc-concurrency
+
+NOTE: oblig1_3 er nesten identisk til Fredriks oppgave ettersom jeg klarte og gcc filen min feil vei (eller noe sånn) og det slettet min oblig1_3.c fil. Min forrige fil var i utgangspunktet veldig lik uansett pga. vi har samarbeidet.
+
+litt kvalitetssikring i filene, blant annet noen if setninger som sikrer at korrekte prosesser
+kjøres. I oblig1_3 sjekkes det antall argumenter og at argument er positivt tall, er det ikke
+det, stoppes programmet med en feilmelding.
+
+-Wall er brukt for enkel men effektiv feilsøking når programmet har blitt bygget.
+
+-pthread er og brukt i alle byggingen av oblig1_2 og oblig1_3 siden de begge inkluderer pthrea
+i programmet.
