@@ -1,0 +1,14 @@
+Readme fil for Oblig2 Operativsystemer av Morten Bjerke
+
+Syntakssjekking har blitt gjort på alle filene ved brusk av bash -n filnavn.bash, outputter 
+ingenting.
+
+Har og kjørt programmet shellcheck på alle filene, denne outputtet masse diverse små-feil selv om programmene virket virket som intensjonelt, fikk rettet opp disse feilene slik at det nå
+ikke vil være noe output fra shellcheck heller.
+
+myprocinfo.bash tar kun imot gyldige kommandoer via case *), skrives ugyldig kommando inn vil
+brukeren få ut en feilmelding og programmet vil bare fortsette.
+
+promci.bash har en if løkke som sjekker at prosessen finnes og tilhører chrome, hvis den ikke
+finnes eller ikke tilhører chrome skrives det kun ut en feilmelding og .meminfo fil vil ikke
+bli opprettet.
